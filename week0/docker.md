@@ -54,7 +54,7 @@ https://www.docker.com/what-docker
 ## 授業で使う環境のセットアップ
 
 1. 下記 URL から ZIP ファイルをダウンロードして展開する．
-　　https://github.com/okamumu/c9-ror/archive/v0.1.0.zip
+   https://github.com/okamumu/c9-ror/releases/latest
 1. 展開したフォルダへ CUI で移動．Windows の場合は PowerShell．Mac の場合はターミナル．わからない人は Google it!
 1. 以下のコマンドを入力して，しばらく（５分くらい）待つ．
 	```sh
