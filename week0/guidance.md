@@ -28,7 +28,7 @@
 
 ---
 
-```
+```uml
 @startuml
 scale 1.5
 left to right direction
