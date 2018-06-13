@@ -28,7 +28,6 @@
 
 ---
 
-<center>
 ```
 @startuml
 scale 1.5
@@ -56,7 +55,6 @@ pour -- pump
 use_timer -- timer
 @enduml
 ```
-</center>
 
 ---
 
