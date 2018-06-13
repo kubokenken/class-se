@@ -3,8 +3,8 @@
 
 # ソフトウェア工学　ガイダンス
 
-- この講義では<span style="color: red;">グループにわかれて</span>受講します．Bb9 「ソフトウェア工学2018」の「グループ分け」および「座席表」を参考にして<span style="color: red;">グループ単位で着席</span>してください．
-- この講義では<span style="color: red;">必携PC</span>を利用しますので準備してください．
+- この講義では**グループにわかれて**受講します．Bb9 「ソフトウェア工学2018」の「グループ分け」および「座席表」を参考にして**グループ単位で着席**してください．
+- この講義では**必携PC**を利用しますので準備してください．
 - 講義は 13:20 から開始しますので以下を済ませておいてください．
 	- グループ内での自己紹介
   - 環境構築（講義資料 の「docker」を参照）
@@ -28,7 +28,35 @@
 
 ---
 
-![125% center](figs/usecase.png)
+<center>
+
+@startuml
+scale 1.5
+left to right direction
+
+actor :ユーザ: as user
+actor :ヒーター: as heater
+actor :サーミスタ: as thermo
+actor :ポンプ: as pump
+actor :タイマー: as timer
+
+usecase (保温する) as keep
+usecase (沸騰する) as boil
+usecase (給湯する) as pour
+usecase (タイマーを使う) as use_timer
+
+user -- boil
+user -- pour
+user -- use_timer
+boil -- heater
+keep -- heater
+boil -- thermo
+keep -- thermo
+pour -- pump
+use_timer -- timer
+@enduml
+
+</center>
 
 ---
 
@@ -79,4 +107,3 @@
 - 7/13 Fri. プロジェクト管理／ロジカルシンキング
 - 7/23 Mon. ソフトウェア品質・レビュー
 - 7/30 Mon. ふりかえり・まとめ／期末テスト
-
