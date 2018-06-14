@@ -58,10 +58,70 @@ use_timer -- timer
 
 ---
 
-![center](figs/class1.png)
+```uml
+@startuml
+hide circle
+left to right direction
+scale 3
+class "学生" as s {
+	名前
+}
 
-![center](figs/class2.png)
+class "講義" as l {
+	名前
+    曜日
+    コマ
+}
 
+class "時間割" as t {
+}
+
+s "0..*" -- "0..*" l : "履修する >"
+t o--> "0..*" l
+s "1" *-- "1" t
+
+@enduml
+```
+
+---
+
+```uml
+@startuml
+hide circle
+left to right direction
+scale 2
+class "Students" as s {
+	name: String
+    
+    getName(): String
+    take(lec: Lectures): void
+    printSchedule(): void
+}
+
+class "Lectures" as l {
+	name: String
+    day: int
+    slot: int
+    
+    getName(): String
+    getDay(): int
+    getSlot(): int
+    regist(student: Students): void
+    printMeibo(): void
+}
+
+class "Schedule" as t {
+
+	set(day: int, slot: int, lec: Lectures): void
+    print(): void
+}
+
+s "0..200 \n myStudent" <--- l
+t "0..*" o---> "0..25 \n table" l
+s "1" *---> "1 \n mySchedule" t
+s .....> l
+@enduml
+```
 ---
 
 # 対象受講生と講義資料
