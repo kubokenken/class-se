@@ -29,6 +29,7 @@
 ---
 
 ```uml
+@startuml
 scale 1.5
 left to right direction
 
@@ -52,6 +53,7 @@ boil -- thermo
 keep -- thermo
 pour -- pump
 use_timer -- timer
+@enduml
 ```
 
 ---
