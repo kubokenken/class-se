@@ -1,12 +1,11 @@
 <!-- footer: ソフトウェア工学　2018年度版　第2週-->
 <!-- page_number: true -->
 
----
-
-- 講義は 13:10 から始めます．
-- 先週作成した KPT を Bb9 から提出しておいてください<br>（毎週の KPT を管理することにしました)
+- 講義は 13:20 から始めます．
+- 先週作成した KPT を Bb9 から提出しておいてください<br>**（毎週の KPT を管理することにしました)**
 - Bb9 資料の Cloud9 を見て環境を整えておいてください．
 - note_week2.docx または note_week2.md をグループで提出してもらうのでグループで事前に打ち合わせをしておいてください．
+- Markdown (md) のビューワーして Marp をカスタマイズしたものを Bb9 に置いたので必要であればダウンロードして活用してください（win32-x64: Windows 64bit, win32-ia32: Windows 32bit, darwin-x64: MacOSX）
 
 ---
 
@@ -22,6 +21,8 @@
 # 課題
 
 ### note_week2.docx または note_week2.md をグループで分担して作成して Bb9 を通じて提出せよ．
+
+*今後の講義で図の作成なども行っていくので，いまのうちに md になれておくことを推奨します．*
 
 ---
 
@@ -178,8 +179,7 @@ void sort(Container x) {
 
 ### **オブジェクト指向は現在のプログラミングでは必須!!**
 
-<span style="font-size: 80%;">
-Exercise: C言語, Java 以外で 4 つ以上のプログラミング言語を挙げて「オブジェクト指向」のスタイルでかけるかどうか調査せよ</span>
+*Exercise: C言語, Java 以外で 4 つ以上のプログラミング言語を挙げて「オブジェクト指向」のスタイルでかけるかどうか調査せよ*
 
 ---
 
@@ -341,7 +341,7 @@ Javaだけにあるもの
 - new は C 言語での malloc に相当するため，以下のようにしてプログラム途中で動的に配列を確保することができる
 
   ```java
-  int a[];
+  int[] a;
   ...
   a = new int[3];
   ```
@@ -596,7 +596,7 @@ class Test {
   }
 }
 ```
-<span style="font-size: 80%;">Exercise: 出力を予想せよ．なぜそのような出力になるかグループで議論せよ</span>
+*<small>Exercise: 出力を予想せよ．なぜそのような出力になるかグループで議論せよ</small>*
 
 ---
 
@@ -641,7 +641,7 @@ class StaticTest {
     // NG: static 関数で non-static 変数を参照してはいけない
     return x;
   }
-  
+
   public int getTwo() {
     return x;
   }
@@ -945,9 +945,7 @@ Hello10
 Hello1000
 Hello World1000
 ```
-<small>
-Exercise: `PrintHelloWorld.java` の `printHelloWorld` メソッドを次のように書き換えた場合どのようになるか
-</small>
+*Exercise: `PrintHelloWorld.java` の `printHelloWorld` メソッドを次のように書き換えた場合どのようになるか*
 
 ```java
   void printHelloWorld() {
@@ -1194,22 +1192,32 @@ class Test {
   public static void main(String[] args) {
     HasA classA = new HasA(new PrintHello());
     HasA classB = new HasA(new PrintHelloWorld());
-    
+
     classA.print();
     classB.print();
   }
 }
 ```
 
-<small>
-Excersice: Print.java を interface を使って書き換え，PrintHello.java, PrintHelloWorld.java, HasA.java, Test.java も必要があれば修正せよ．
-</small>
+*<small>
+Excercise: Print.java を interface を使って書き換え，PrintHello.java, PrintHelloWorld.java, HasA.java, Test.java も必要があれば修正せよ．
+</small>*
+
+---
+
+# Excercise
+
+## *FizzBuzz 問題をオブジェクト指向プログラミングで作成せよ*
+
+- 数字，Fizz, Buzz, FizzBuzz をオブジェクト（クラス）とする
 
 ---
 
 # 課題
 
 ### note_week2.docx または note_week2.md をグループで分担して作成して Bb9 を通じて提出せよ．
+
+*今後の講義で図の作成なども行っていくので，いまのうちに md になれておくことを推奨します．*
 
 ---
 
