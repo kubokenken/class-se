@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="183px" preserveAspectRatio="none" style="width:412px;height:183px;" version="1.1" viewBox="0 0 412 183" width="412.5px" zoomAndPan="magnify"><defs/><g><!--entity u--><ellipse cx="40.5" cy="44.25" fill="#FEFECE" rx="12" ry="12" style="stroke: #A80036; stroke-width: 3.0;"/><path d="M40.5,56.25 L40.5,96.75 M21,68.25 L60,68.25 M40.5,96.75 L21,119.25 M40.5,96.75 L60,119.25 " fill="none" style="stroke: #A80036; stroke-width: 3.0;"/><text fill="#000000" font-family="sans-serif" font-size="21" lengthAdjust="spacingAndGlyphs" textLength="63" x="9" y="144.0527">ユーザ</text><ellipse cx="279.7986" cy="35.7097" fill="#FEFECE" rx="100.5486" ry="23.7097" style="stroke: #A80036; stroke-width: 2.25;"/><text fill="#000000" font-family="sans-serif" font-size="21" lengthAdjust="spacingAndGlyphs" textLength="147" x="206.2986" y="42.8259">食品を登録する</text><ellipse cx="279.4306" cy="139.5861" fill="#FEFECE" rx="117.4306" ry="27.0861" style="stroke: #A80036; stroke-width: 2.25;"/><text fill="#000000" font-family="sans-serif" font-size="21" lengthAdjust="spacingAndGlyphs" textLength="189" x="184.9306" y="146.7023">カロリーを計算する</text><!--link u to uc1--><path d="M72.4019,81.744 C105.801,74.322 160.635,62.1366 205.314,52.2081 " fill="none" id="u-uc1" style="stroke: #A80036; stroke-width: 1.5;"/><!--link u to uc2--><path d="M72.4019,95.063 C102.8102,101.6272 150.986,112.0272 193.089,121.116 " fill="none" id="u-uc2" style="stroke: #A80036; stroke-width: 1.5;"/><!--
+@startuml
+skinparam shadowing false
+scale 1.5
+left to right direction
+
+actor :ユーザ: as u
+usecase uc1 as "食品を登録する"
+usecase uc2 as "カロリーを計算する"
+
+u - - uc1
+u - - uc2
+@enduml
+
+PlantUML version 1.2018.08(Sun Jun 24 21:31:00 JST 2018)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Java Version: 1.8.0_102-b14
+Operating System: Mac OS X
+OS Version: 10.11.6
+Default Encoding: UTF-8
+Language: ja
+Country: JP
+--></g></svg>
