@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="904px" preserveAspectRatio="none" style="width:1674px;height:904px;" version="1.1" viewBox="0 0 1674 904" width="1674px" zoomAndPan="magnify"><defs/><g><text fill="#000000" font-family="sans-serif" font-size="28" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="84" x="792" y="47.0703">初期化</text><rect fill="#FFFFFF" height="650.125" style="stroke: #A80036; stroke-width: 2.0;" width="20" x="200" y="212.5742"/><rect fill="#FFFFFF" height="60" style="stroke: #A80036; stroke-width: 2.0;" width="20" x="490" y="583.1016"/><rect fill="#FFFFFF" height="60" style="stroke: #A80036; stroke-width: 2.0;" width="20" x="490" y="784.6992"/><rect fill="#FEFECE" height="60.9766" style="stroke: #A80036; stroke-width: 3.0;" width="262" x="369" y="208.5742"/><text fill="#000000" font-family="sans-serif" font-size="28" lengthAdjust="spacingAndGlyphs" textLength="234" x="383" y="249.6445">foodList:FoodList</text><rect fill="#FEFECE" height="60.9766" style="stroke: #A80036; stroke-width: 3.0;" width="292" x="786" y="291.5508"/><text fill="#000000" font-family="sans-serif" font-size="28" lengthAdjust="spacingAndGlyphs" textLength="264" x="800" y="332.6211">:FoodListController</text><rect fill="#FEFECE" height="60.9766" style="stroke: #A80036; stroke-width: 3.0;" width="240" x="1098" y="374.5273"/><text fill="#000000" font-family="sans-serif" font-size="28" lengthAdjust="spacingAndGlyphs" textLength="212" x="1112" y="415.5977">:MealController</text><rect fill="#FEFECE" height="60.9766" style="stroke: #A80036; stroke-width: 3.0;" width="136" x="1358" y="457.5039"/><text fill="#000000" font-family="sans-serif" font-size="28" lengthAdjust="spacingAndGlyphs" textLength="108" x="1372" y="498.5742">a:Foods</text><rect fill="#FEFECE" height="60.9766" style="stroke: #A80036; stroke-width: 3.0;" width="138" x="1514" y="659.1016"/><text fill="#000000" font-family="sans-serif" font-size="28" lengthAdjust="spacingAndGlyphs" textLength="110" x="1528" y="700.1719">b:Foods</text><line style="stroke: #A80036; stroke-width: 2.0; stroke-dasharray: 5.0,5.0;" x1="209" x2="209" y1="129.9531" y2="880.6992"/><line style="stroke: #A80036; stroke-width: 2.0; stroke-dasharray: 5.0,5.0;" x1="499" x2="499" y1="270.0625" y2="880.6992"/><line style="stroke: #A80036; stroke-width: 2.0; stroke-dasharray: 5.0,5.0;" x1="932" x2="932" y1="353.0391" y2="880.6992"/><line style="stroke: #A80036; stroke-width: 2.0; stroke-dasharray: 5.0,5.0;" x1="1218" x2="1218" y1="436.0156" y2="880.6992"/><line style="stroke: #A80036; stroke-width: 2.0; stroke-dasharray: 5.0,5.0;" x1="1426" x2="1426" y1="518.9922" y2="880.6992"/><line style="stroke: #A80036; stroke-width: 2.0; stroke-dasharray: 5.0,5.0;" x1="1582" x2="1582" y1="720.5898" y2="880.6992"/><rect fill="#FEFECE" height="60.9766" style="stroke: #A80036; stroke-width: 3.0;" width="242" x="89" y="66.9766"/><text fill="#000000" font-family="sans-serif" font-size="28" lengthAdjust="spacingAndGlyphs" textLength="214" x="103" y="108.0469">:MainController</text><rect fill="#FFFFFF" height="650.125" style="stroke: #A80036; stroke-width: 2.0;" width="20" x="200" y="212.5742"/><rect fill="#FFFFFF" height="60" style="stroke: #A80036; stroke-width: 2.0;" width="20" x="490" y="583.1016"/><rect fill="#FFFFFF" height="60" style="stroke: #A80036; stroke-width: 2.0;" width="20" x="490" y="784.6992"/><polygon fill="#A80036" points="186,184.5742,206,192.5742,186,200.5742,194,192.5742" style="stroke: #A80036; stroke-width: 2.0;"/><line style="stroke: #A80036; stroke-width: 2.0;" x1="6" x2="198" y1="192.5742" y2="192.5742"/><text fill="#000000" font-family="sans-serif" font-size="26" lengthAdjust="spacingAndGlyphs" textLength="156" x="20" y="183.0898">&lt;&lt;create&gt;&gt;</text><polygon fill="#A80036" points="345,212.5742,365,220.5742,345,228.5742,353,220.5742" style="stroke: #A80036; stroke-width: 2.0;"/><line style="stroke: #A80036; stroke-width: 2.0;" x1="220" x2="357" y1="220.5742" y2="220.5742"/><rect fill="#FEFECE" height="60.9766" style="stroke: #A80036; stroke-width: 3.0;" width="262" x="369" y="208.5742"/><text fill="#000000" font-family="sans-serif" font-size="28" lengthAdjust="spacingAndGlyphs" textLength="234" x="383" y="249.6445">foodList:FoodList</text><polygon fill="#A80036" points="762,326.1719,782,334.1719,762,342.1719,770,334.1719" style="stroke: #A80036; stroke-width: 2.0;"/><line style="stroke: #A80036; stroke-width: 2.0;" x1="220" x2="774" y1="334.1719" y2="334.1719"/><text fill="#000000" font-family="sans-serif" font-size="26" lengthAdjust="spacingAndGlyphs" textLength="518" x="234" y="324.6875">&lt;&lt;create&gt;&gt; FoodListController(foodList)</text><rect fill="#FEFECE" height="60.9766" style="stroke: #A80036; stroke-width: 3.0;" width="292" x="786" y="291.5508"/><text fill="#000000" font-family="sans-serif" font-size="28" lengthAdjust="spacingAndGlyphs" textLength="264" x="800" y="332.6211">:FoodListController</text><polygon fill="#A80036" points="1074,409.1484,1094,417.1484,1074,425.1484,1082,417.1484" style="stroke: #A80036; stroke-width: 2.0;"/><line style="stroke: #A80036; stroke-width: 2.0;" x1="220" x2="1086" y1="417.1484" y2="417.1484"/><text fill="#000000" font-family="sans-serif" font-size="26" lengthAdjust="spacingAndGlyphs" textLength="468" x="234" y="407.6641">&lt;&lt;create&gt;&gt; MealController(foodList)</text><rect fill="#FEFECE" height="60.9766" style="stroke: #A80036; stroke-width: 3.0;" width="240" x="1098" y="374.5273"/><text fill="#000000" font-family="sans-serif" font-size="28" lengthAdjust="spacingAndGlyphs" textLength="212" x="1112" y="415.5977">:MealController</text><polygon fill="#A80036" points="1334,492.125,1354,500.125,1334,508.125,1342,500.125" style="stroke: #A80036; stroke-width: 2.0;"/><line style="stroke: #A80036; stroke-width: 2.0;" x1="220" x2="1346" y1="500.125" y2="500.125"/><text fill="#000000" font-family="sans-serif" font-size="26" lengthAdjust="spacingAndGlyphs" textLength="416" x="234" y="490.6406">&lt;&lt;create&gt;&gt; Foods("米飯", 150.0)</text><rect fill="#FEFECE" height="60.9766" style="stroke: #A80036; stroke-width: 3.0;" width="136" x="1358" y="457.5039"/><text fill="#000000" font-family="sans-serif" font-size="28" lengthAdjust="spacingAndGlyphs" textLength="108" x="1372" y="498.5742">a:Foods</text><polygon fill="#A80036" points="466,575.1016,486,583.1016,466,591.1016,474,583.1016" style="stroke: #A80036; stroke-width: 2.0;"/><line style="stroke: #A80036; stroke-width: 2.0;" x1="220" x2="478" y1="583.1016" y2="583.1016"/><text fill="#000000" font-family="sans-serif" font-size="26" lengthAdjust="spacingAndGlyphs" textLength="230" x="234" y="573.6172">add(a:Foods): void</text><polygon fill="#A80036" points="1490,693.7227,1510,701.7227,1490,709.7227,1498,701.7227" style="stroke: #A80036; stroke-width: 2.0;"/><line style="stroke: #A80036; stroke-width: 2.0;" x1="220" x2="1502" y1="701.7227" y2="701.7227"/><text fill="#000000" font-family="sans-serif" font-size="26" lengthAdjust="spacingAndGlyphs" textLength="426" x="234" y="692.2383">&lt;&lt;create&gt;&gt; Foods("中華麺", 57.1)</text><rect fill="#FEFECE" height="60.9766" style="stroke: #A80036; stroke-width: 3.0;" width="138" x="1514" y="659.1016"/><text fill="#000000" font-family="sans-serif" font-size="28" lengthAdjust="spacingAndGlyphs" textLength="110" x="1528" y="700.1719">b:Foods</text><polygon fill="#A80036" points="466,776.6992,486,784.6992,466,792.6992,474,784.6992" style="stroke: #A80036; stroke-width: 2.0;"/><line style="stroke: #A80036; stroke-width: 2.0;" x1="220" x2="478" y1="784.6992" y2="784.6992"/><text fill="#000000" font-family="sans-serif" font-size="26" lengthAdjust="spacingAndGlyphs" textLength="232" x="234" y="775.2148">add(b:Foods): void</text><!--
+@startuml
+skinparam shadowing false
+scale 2
+hide footbox
+title 初期化
+
+participant ":MainController" as MainController
+participant "foodList:FoodList" as foodList
+participant ":FoodListController" as FoodListController
+participant ":MealController" as MealController
+participant "a:Foods" as food
+participant "b:Foods" as food2
+
+create MainController
+[-> MainController: <<create>>
+activate MainController
+create foodList
+MainController -> foodList
+create FoodListController
+MainController -> FoodListController: <<create>> FoodListController(foodList)
+create MealController
+MainController -> MealController: <<create>> MealController(foodList)
+create food
+MainController -> food: <<create>> Foods("米飯", 150.0)
+MainController -> foodList: add(a:Foods): void
+activate foodList
+deactivate foodList
+create food2
+MainController -> food2: <<create>> Foods("中華麺", 57.1)
+MainController -> foodList: add(b:Foods): void
+activate foodList
+deactivate foodList
+@enduml
+
+PlantUML version 1.2018.08(Sun Jun 24 21:31:00 JST 2018)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Java Version: 1.8.0_102-b14
+Operating System: Mac OS X
+OS Version: 10.11.6
+Default Encoding: UTF-8
+Language: ja
+Country: JP
+--></g></svg>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="708px" preserveAspectRatio="none" style="width:1230px;height:708px;" version="1.1" viewBox="0 0 1230 708" width="1230px" zoomAndPan="magnify"><defs/><g><rect fill="#FFFFFF" height="482.082" style="stroke: #A80036; stroke-width: 2.0;" width="20" x="73" y="184.9766"/><rect fill="#FFFFFF" height="64.6211" style="stroke: #A80036; stroke-width: 2.0;" width="20" x="83" y="359.1953"/><rect fill="#FFFFFF" height="482.082" style="stroke: #A80036; stroke-width: 2.0;" width="20" x="427" y="184.9766"/><rect fill="#FFFFFF" height="60" style="stroke: #A80036; stroke-width: 2.0;" width="20" x="747" y="575.0586"/><rect fill="#FFFFFF" height="28" style="stroke: #A80036; stroke-width: 2.0;" width="20" x="988" y="488.4375"/><rect fill="#FEFECE" height="60.9766" style="stroke: #A80036; stroke-width: 3.0;" width="180" x="667" y="184.9766"/><text fill="#000000" font-family="sans-serif" font-size="28" lengthAdjust="spacingAndGlyphs" textLength="152" x="681" y="226.0469">meal:Meals</text><rect fill="#FFFFFF" height="369.1055" style="stroke: #000000; stroke-width: 4.0;" width="1183" x="26" y="281.9531"/><line style="stroke: #A80036; stroke-width: 2.0; stroke-dasharray: 5.0,5.0;" x1="82" x2="82" y1="164.9766" y2="685.0586"/><line style="stroke: #A80036; stroke-width: 2.0; stroke-dasharray: 5.0,5.0;" x1="437" x2="437" y1="164.9766" y2="685.0586"/><line style="stroke: #A80036; stroke-width: 2.0; stroke-dasharray: 5.0,5.0;" x1="757" x2="757" y1="246.4648" y2="685.0586"/><line style="stroke: #A80036; stroke-width: 2.0; stroke-dasharray: 5.0,5.0;" x1="997" x2="997" y1="164.9766" y2="685.0586"/><text fill="#000000" font-family="sans-serif" font-size="28" lengthAdjust="spacingAndGlyphs" textLength="62" x="46" y="159.0703">User</text><ellipse cx="83" cy="26" fill="#FEFECE" rx="16" ry="16" style="stroke: #A80036; stroke-width: 4.0;"/><path d="M83,42 L83,96 M57,58 L109,58 M83,96 L57,126 M83,96 L109,126 " fill="none" style="stroke: #A80036; stroke-width: 4.0;"/><rect fill="#FEFECE" height="60.9766" style="stroke: #A80036; stroke-width: 3.0;" width="240" x="317" y="102"/><text fill="#000000" font-family="sans-serif" font-size="28" lengthAdjust="spacingAndGlyphs" textLength="212" x="331" y="143.0703">:MealController</text><rect fill="#FEFECE" height="60.9766" style="stroke: #A80036; stroke-width: 3.0;" width="262" x="867" y="102"/><text fill="#000000" font-family="sans-serif" font-size="28" lengthAdjust="spacingAndGlyphs" textLength="234" x="881" y="143.0703">foodList:FoodList</text><rect fill="#FFFFFF" height="482.082" style="stroke: #A80036; stroke-width: 2.0;" width="20" x="73" y="184.9766"/><rect fill="#FFFFFF" height="64.6211" style="stroke: #A80036; stroke-width: 2.0;" width="20" x="83" y="359.1953"/><rect fill="#FFFFFF" height="482.082" style="stroke: #A80036; stroke-width: 2.0;" width="20" x="427" y="184.9766"/><rect fill="#FFFFFF" height="60" style="stroke: #A80036; stroke-width: 2.0;" width="20" x="747" y="575.0586"/><rect fill="#FFFFFF" height="28" style="stroke: #A80036; stroke-width: 2.0;" width="20" x="988" y="488.4375"/><polygon fill="#A80036" points="643,219.5977,663,227.5977,643,235.5977,651,227.5977" style="stroke: #A80036; stroke-width: 2.0;"/><line style="stroke: #A80036; stroke-width: 2.0;" x1="447" x2="655" y1="227.5977" y2="227.5977"/><text fill="#000000" font-family="sans-serif" font-size="26" lengthAdjust="spacingAndGlyphs" textLength="156" x="461" y="218.1133">&lt;&lt;create&gt;&gt;</text><rect fill="#FEFECE" height="60.9766" style="stroke: #A80036; stroke-width: 3.0;" width="180" x="667" y="184.9766"/><text fill="#000000" font-family="sans-serif" font-size="28" lengthAdjust="spacingAndGlyphs" textLength="152" x="681" y="226.0469">meal:Meals</text><path d="M26,281.9531 L174,281.9531 L174,295.9531 L154,315.9531 L26,315.9531 L26,281.9531 " fill="#EEEEEE" style="stroke: #000000; stroke-width: 2.0;"/><rect fill="none" height="369.1055" style="stroke: #000000; stroke-width: 4.0;" width="1183" x="26" y="281.9531"/><text fill="#000000" font-family="sans-serif" font-size="26" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="58" x="56" y="309.0898">loop</text><polygon fill="#A80036" points="125,351.1953,105,359.1953,125,367.1953,117,359.1953" style="stroke: #A80036; stroke-width: 2.0;"/><line style="stroke: #A80036; stroke-width: 2.0;" x1="113" x2="425" y1="359.1953" y2="359.1953"/><text fill="#000000" font-family="sans-serif" font-size="26" lengthAdjust="spacingAndGlyphs" textLength="286" x="137" y="349.7109">食品名，グラム数の入力</text><polygon fill="#A80036" points="403,415.8164,423,423.8164,403,431.8164,411,423.8164" style="stroke: #A80036; stroke-width: 2.0;"/><line style="stroke: #A80036; stroke-width: 2.0; stroke-dasharray: 2.0,2.0;" x1="93" x2="415" y1="423.8164" y2="423.8164"/><text fill="#000000" font-family="sans-serif" font-size="26" lengthAdjust="spacingAndGlyphs" textLength="148" x="107" y="414.332">name, gram</text><path d="M456,385.1953 L456,435.1953 L1188,435.1953 L1188,405.1953 L1168,385.1953 L456,385.1953 " fill="#FBFB77" style="stroke: #A80036; stroke-width: 2.0;"/><path d="M1168,385.1953 L1168,405.1953 L1188,405.1953 L1168,385.1953 " fill="#FBFB77" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="26" lengthAdjust="spacingAndGlyphs" textLength="690" x="468" y="420.332">name が 'end' であればグラム数を入力せずに loop を終了</text><polygon fill="#A80036" points="964,480.4375,984,488.4375,964,496.4375,972,488.4375" style="stroke: #A80036; stroke-width: 2.0;"/><line style="stroke: #A80036; stroke-width: 2.0;" x1="447" x2="976" y1="488.4375" y2="488.4375"/><text fill="#000000" font-family="sans-serif" font-size="26" lengthAdjust="spacingAndGlyphs" textLength="302" x="461" y="478.9531">food = get(name):Foods</text><polygon fill="#A80036" points="469,508.4375,449,516.4375,469,524.4375,461,516.4375" style="stroke: #A80036; stroke-width: 2.0;"/><line style="stroke: #A80036; stroke-width: 2.0; stroke-dasharray: 2.0,2.0;" x1="457" x2="996" y1="516.4375" y2="516.4375"/><polygon fill="#A80036" points="723,567.0586,743,575.0586,723,583.0586,731,575.0586" style="stroke: #A80036; stroke-width: 2.0;"/><line style="stroke: #A80036; stroke-width: 2.0;" x1="447" x2="735" y1="575.0586" y2="575.0586"/><text fill="#000000" font-family="sans-serif" font-size="26" lengthAdjust="spacingAndGlyphs" textLength="262" x="461" y="565.5742">add(food, gram):void</text><!--
+@startuml
+skinparam shadowing false
+scale 2
+hide footbox
+
+actor "User" as user
+participant ":MealController" as MealController
+participant "meal:Meals" as meal
+participant "foodList:FoodList" as foodList
+
+activate user
+activate MealController
+create meal
+MealController -> meal: <<create>>
+loop
+  user <- MealController: 食品名，グラム数の入力
+  activate user
+  user - -> MealController: name, gram
+  deactivate user
+  note right
+    name が 'end' であればグラム数を入力せずに loop を終了
+  endnote
+  MealController -> foodList: food = get(name):Foods
+  activate foodList
+  MealController <- - foodList
+  deactivate foodList
+  MealController -> meal: add(food, gram):void
+  activate meal
+  deactivate meal
+end
+
+@enduml
+
+PlantUML version 1.2018.08(Sun Jun 24 21:31:00 JST 2018)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Java Version: 1.8.0_102-b14
+Operating System: Mac OS X
+OS Version: 10.11.6
+Default Encoding: UTF-8
+Language: ja
+Country: JP
+--></g></svg>

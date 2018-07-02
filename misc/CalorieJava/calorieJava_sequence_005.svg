@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="374px" preserveAspectRatio="none" style="width:722px;height:374px;" version="1.1" viewBox="0 0 722 374" width="722px" zoomAndPan="magnify"><defs/><g><rect fill="#FFFFFF" height="147.2422" style="stroke: #A80036; stroke-width: 2.0;" width="20" x="43" y="184.9766"/><rect fill="#FFFFFF" height="147.2422" style="stroke: #A80036; stroke-width: 2.0;" width="20" x="319" y="184.9766"/><rect fill="#FFFFFF" height="28" style="stroke: #A80036; stroke-width: 2.0;" width="20" x="601" y="227.5977"/><line style="stroke: #A80036; stroke-width: 2.0; stroke-dasharray: 5.0,5.0;" x1="52" x2="52" y1="164.9766" y2="350.2188"/><line style="stroke: #A80036; stroke-width: 2.0; stroke-dasharray: 5.0,5.0;" x1="329" x2="329" y1="164.9766" y2="350.2188"/><line style="stroke: #A80036; stroke-width: 2.0; stroke-dasharray: 5.0,5.0;" x1="611" x2="611" y1="164.9766" y2="350.2188"/><text fill="#000000" font-family="sans-serif" font-size="28" lengthAdjust="spacingAndGlyphs" textLength="62" x="16" y="159.0703">User</text><ellipse cx="53" cy="26" fill="#FEFECE" rx="16" ry="16" style="stroke: #A80036; stroke-width: 4.0;"/><path d="M53,42 L53,96 M27,58 L79,58 M53,96 L27,126 M53,96 L79,126 " fill="none" style="stroke: #A80036; stroke-width: 4.0;"/><rect fill="#FEFECE" height="60.9766" style="stroke: #A80036; stroke-width: 3.0;" width="240" x="209" y="102"/><text fill="#000000" font-family="sans-serif" font-size="28" lengthAdjust="spacingAndGlyphs" textLength="212" x="223" y="143.0703">:MealController</text><rect fill="#FEFECE" height="60.9766" style="stroke: #A80036; stroke-width: 3.0;" width="180" x="521" y="102"/><text fill="#000000" font-family="sans-serif" font-size="28" lengthAdjust="spacingAndGlyphs" textLength="152" x="535" y="143.0703">meal:Meals</text><rect fill="#FFFFFF" height="147.2422" style="stroke: #A80036; stroke-width: 2.0;" width="20" x="43" y="184.9766"/><rect fill="#FFFFFF" height="147.2422" style="stroke: #A80036; stroke-width: 2.0;" width="20" x="319" y="184.9766"/><rect fill="#FFFFFF" height="28" style="stroke: #A80036; stroke-width: 2.0;" width="20" x="601" y="227.5977"/><polygon fill="#A80036" points="577,219.5977,597,227.5977,577,235.5977,585,227.5977" style="stroke: #A80036; stroke-width: 2.0;"/><line style="stroke: #A80036; stroke-width: 2.0;" x1="339" x2="589" y1="227.5977" y2="227.5977"/><text fill="#000000" font-family="sans-serif" font-size="26" lengthAdjust="spacingAndGlyphs" textLength="224" x="353" y="218.1133">calcTotal():double</text><polygon fill="#A80036" points="361,247.5977,341,255.5977,361,263.5977,353,255.5977" style="stroke: #A80036; stroke-width: 2.0;"/><line style="stroke: #A80036; stroke-width: 2.0; stroke-dasharray: 2.0,2.0;" x1="349" x2="609" y1="255.5977" y2="255.5977"/><line style="stroke: #A80036; stroke-width: 2.0;" x1="63" x2="83" y1="314.2188" y2="306.2188"/><line style="stroke: #A80036; stroke-width: 2.0;" x1="63" x2="83" y1="314.2188" y2="322.2188"/><line style="stroke: #A80036; stroke-width: 2.0;" x1="63" x2="317" y1="314.2188" y2="314.2188"/><text fill="#000000" font-family="sans-serif" font-size="26" lengthAdjust="spacingAndGlyphs" textLength="208" x="97" y="304.7344">総カロリーの表示</text><!--
+@startuml
+skinparam shadowing false
+scale 2
+hide footbox
+
+actor "User" as user
+participant ":MealController" as MealController
+participant "meal:Meals" as meal
+
+activate user
+activate MealController
+MealController -> meal: calcTotal():double
+activate meal
+MealController <- - meal
+deactivate meal
+user <<- MealController: 総カロリーの表示
+
+@enduml
+
+PlantUML version 1.2018.08(Sun Jun 24 21:31:00 JST 2018)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Java Version: 1.8.0_102-b14
+Operating System: Mac OS X
+OS Version: 10.11.6
+Default Encoding: UTF-8
+Language: ja
+Country: JP
+--></g></svg>
